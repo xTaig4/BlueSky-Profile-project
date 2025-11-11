@@ -7,7 +7,7 @@ const Projects = () => {
       description:
         "My first developer profile webapp showcasing my skills, projects, and contact information.",
       image:
-        "https://raw.githubusercontent.com/xTaig4/My_Developer_profile/refs/heads/main/my-dev-profile/Screenshots/profile_web.JPG?token=GHSAT0AAAAAADKZ7VZRUJOSFVN7B4VNK5462ISPRZA",
+        "https://raw.githubusercontent.com/xTaig4/My_Developer_profile/refs/heads/main/my-dev-profile/Screenshots/profile_web.JPG",
       link: "https://my-developer-profile-m9jc.vercel.app",
     },
     {
