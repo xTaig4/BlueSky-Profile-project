@@ -1,7 +1,7 @@
 interface FloatingBarProps {
   tab: string[];
   activeTab?: string;
-  onSelect?: (tab: string) => void;
+  onSelect: (tab: string) => void;
 }
 
 const FloatingBar = ({ tab, activeTab, onSelect }: FloatingBarProps) => {
@@ -11,11 +11,9 @@ const FloatingBar = ({ tab, activeTab, onSelect }: FloatingBarProps) => {
         <button
           key={item}
           className={`p-1 flex-1 text-lg font-medium transition-colors rounded-lg ${
-            activeTab === item
-              ? "bg-blue-500 text-white"
-              : "text-white hover:bg-blue-500"
+            activeTab === item ? "bg-blue-500" : " hover:text-gray-300"
           }`}
-          onClick={() => onSelect && onSelect(item)}
+          onClick={() => onSelect(item)}
         >
           {item}
         </button>
