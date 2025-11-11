@@ -1,11 +1,11 @@
 "use client";
 
-import Image from "next/image";
 import { useState } from "react";
-import Avatar from "./components/Avatar";
 import Projects from "./components/Projects";
 import FloatingBar from "./components/Navigations/FloatingBar";
 import Profile from "./components/Profile";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 export default function Home() {
   const tabs = ["Profile", "Projects", "Skills", "Contact"];
@@ -38,6 +38,8 @@ export default function Home() {
           >
             {selectedTab === "Projects" && <Projects />}
             {selectedTab === "Profile" && <Profile />}
+            {selectedTab === "Skills" && <Skills />}
+            {selectedTab === "Contact" && <Contact />}
           </div>
         </div>
 
