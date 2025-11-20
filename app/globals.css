@@ -4,10 +4,10 @@
   --background: #ffffff;
   --foreground: #171717;
 
-  --bg-night: #000b30;
+  --bg-night: #0b153a;
   --bg-light: #0ea5e9;
-  --con-bg-night: #242c46;
-  --con-bg-light: #6fb0ff;
+  --con-bg-night: #242a3b;
+  --con-bg-light: #4f9dfd;
   --button-bg-night: #465372;
   --button-bg-light: #3b82f6;
 }
@@ -55,12 +55,20 @@ body {
 
 .cloud-1 {
   animation: cloudMove 90s linear infinite;
+  animation-delay: 2s;
 }
 
 .cloud-2 {
-  animation: cloudMove1 40s linear infinite;
+  animation: cloudMove 90s linear infinite;
+  animation-delay: 34s;
 }
 
 .cloud-3 {
-  animation: cloudMove2 40s linear infinite;
+  animation: cloudMove 90s linear infinite;
+  animation-delay: 47s;
+}
+
+.cloud-4 {
+  animation: cloudMove 90s linear infinite;
+  animation-delay: 14s;
 }

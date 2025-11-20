@@ -50,7 +50,7 @@ const Projects = () => {
       <div className="gap-4 grid grid-cols-3 place-items-center">
         {projects.map((project) => (
           <div
-            className="border-6 border-white w-50 h-35 bg-blue-200 text-blue-900 justify-center flex flex-col items-center text-center rounded-2xl gap-1"
+            className="border-6 border-white w-50 h-35 bg-blue-200 dark:bg-gray-400 text-blue-500 justify-center flex flex-col items-center text-center rounded-2xl gap-1"
             key={project.name}
           >
             <Image
