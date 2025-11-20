@@ -45,12 +45,12 @@ const Projects = () => {
   ];
 
   return (
-    <div className="gap-5 border-6 bg-blue-400 w-200 h-150 rounded-2xl text-2xl pt-5 flex flex-col items-center">
+    <div className="gap-5 border-6 dark:bg-con-night bg-con-light w-200 h-150 rounded-2xl text-2xl pt-5 flex flex-col items-center">
       <h1>Projects Component</h1>
       <div className="gap-4 grid grid-cols-3 place-items-center">
         {projects.map((project) => (
           <div
-            className="border-6 border-white w-50 h-35 justify-center flex flex-col items-center text-center rounded-2xl gap-1"
+            className="border-6 border-white w-50 h-35 bg-blue-200 text-blue-900 justify-center flex flex-col items-center text-center rounded-2xl gap-1"
             key={project.name}
           >
             <Image

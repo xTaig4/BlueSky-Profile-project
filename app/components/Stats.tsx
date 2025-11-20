@@ -4,7 +4,7 @@ interface StatsProps {
 
 const Stats = ({ stats }: StatsProps) => {
   return (
-    <div className="w-100 h-150 border-6 bg-blue-400 rounded-2xl text-2xl flex flex-col p-5">
+    <div className="w-100 h-150 border-6 bg-con-light dark:bg-con-night rounded-2xl text-2xl flex flex-col p-5">
       <h3 className="text-white font-bold mb-4">Stats</h3>
       <div className="w-75 space-y-3 ">
         {stats.map(({ stat, fillPercent }) => (
